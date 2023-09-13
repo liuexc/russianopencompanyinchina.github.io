@@ -3,23 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>商业咨询服务博客</title>
+    <title>商业博客</title>
     <style>
-        /* 添加样式以美化页面 */
+        /* 添加样式以模仿麦肯锡网站的风格 */
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            background-color: #f0f0f0;
             margin: 0;
             padding: 0;
         }
         header {
-            background-color: #333;
+            background-color: #001f3f;
             color: #fff;
             text-align: center;
             padding: 20px;
         }
         h1 {
             margin: 0;
+            font-size: 36px;
         }
         .container {
             max-width: 800px;
@@ -27,42 +28,65 @@
             padding: 20px;
             background-color: #fff;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
         }
-        label {
+        p {
+            margin-bottom: 20px;
+            font-size: 18px;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        a {
+            color: #0074b8;
+            text-decoration: none;
             font-weight: bold;
         }
-        input[type="text"],
-        input[type="email"] {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 10px;
+        a:hover {
+            text-decoration: underline;
         }
         button {
-            background-color: #333;
+            background-color: #0074b8;
             color: #fff;
-            padding: 10px 20px;
+            padding: 12px 24px;
             border: none;
             cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #005b96;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>商业咨询服务博客</h1>
-        <p>获取专业商业咨询服务，留下您的联系信息以获取更多信息。</p>
+        <h1>欢迎访问商业博客</h1>
+        <p>我们是您可信赖的商业合作伙伴。</p>
     </header>
     <div class="container">
-        <h2>联系我们</h2>
-        <p>填写下面的表单以获取更多信息：</p>
-        <form action="提交表单的URL" method="POST">
-            <label for="name">姓名：</label>
-            <input type="text" id="name" name="name" required>
-            <label for="email">电子邮件：</label>
-            <input type="email" id="email" name="email" required>
-            <label for="message">留言：</label>
-            <textarea id="message" name="message" rows="4" required></textarea>
-            <button type="submit">提交</button>
-        </form>
+        <h2>关于我们</h2>
+        <p>我们公司提供卓越的商业咨询服务，以下是我们的业务能力和优势：</p>
+        <ul>
+            <li>专业的团队，多年的行业经验。</li>
+            <li>定制化解决方案，满足客户的独特需求。</li>
+            <li>竞争力的价格，灵活的付款选项。</li>
+            <li>卓越的客户支持和持续的跟进。</li>
+        </ul>
+
+        <h2>服务收费</h2>
+        <p>我们的服务价格因项目而异，具体收费情况请与我们联系以获取报价。</p>
+
+        <h2>联系方式</h2>
+        <p>我们随时为您提供支持和咨询：</p>
+        <ul>
+            <li>电话：<a href="tel:+1234567890">+123-456-7890</a></li>
+            <li>电子邮件：<a href="mailto:info@example.com">info@example.com</a></li>
+        </ul>
+
+        <h2>提交您的需求</h2>
+        <p>如果您有特定的需求或问题，请填写以下<a href="https://forms.google.com/">Google Form</a>，我们将尽快与您联系：</p>
+        <p><a href="https://forms.google.com/">Google Form 链接</a></p>
     </div>
 </body>
 </html>
